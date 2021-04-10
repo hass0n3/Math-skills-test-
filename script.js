@@ -1,6 +1,6 @@
 // Added const names for the instructions//
 const names = ['you will not ues any think accept the thinks in the page remember that ']
-const name =['Math test']
+const name = ['Math test']
 // Connected the const names to a paragraph tag in index.html called "instructions", so that it can be displayed as text on the website//
 for (let i = 0; i < names.length; i++) {
   document.getElementById('instructions').innerHTML = (names)
