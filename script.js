@@ -5,7 +5,7 @@ for (let i = 0; i < names.length; i++) {
   document.getElementById('instructions').innerHTML = (names)
 }
 
-function setCookie(cname, cvalue, exdays) {
+function setCookie (cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = "expires="+d.toUTCString();
