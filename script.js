@@ -111,7 +111,7 @@ function function3 () {
 }
 function function4 () {
   riddle4 = document.getElementById('answer-4').value
-  if (riddle4 === 'inverted “T”' || riddle4 === 'inverted “t”' || riddle4 === 'Inverted “t”' || riddle4 === 'Inverted “T”') {
+  if (riddle4 === 'inverted “T”' || riddle4 === 'inverted “t”' || riddle4 === 'Inverted “t”' || riddle4 === ' “T”') {
     document.getElementById('paragraph-4').innerHTML = 'Correct'
   } else {
     document.getElementById('paragraph-4').innerHTML = 'Incorrect'
