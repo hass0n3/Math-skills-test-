@@ -126,7 +126,7 @@ function function5 () {
 }
 function function6 () {
   riddle6 = document.getElementById('answer-6').value
-if (riddle6 === 'Octagon' || riddle6 === 'octagon') {
+  if (riddle6 === 'Octagon' || riddle6 === 'octagon' ) {
     document.getElementById('paragraph-6').innerHTML = 'Correct'
   } else {
     document.getElementById('paragraph-6').innerHTML = 'Incorrect'
@@ -192,13 +192,13 @@ function disapearbutton8 () {
 
 // Last riddle, "wooow thanks for take this qustion and the qution is when should the person start to porgram ?"//
 const myAge = 7
-let answer = 7
+let answer = 0
 
 function donotclickme () {
   while (myAge !== answer) {
     answer = prompt('wooow thanks for take this qustion and the qution is when should the person start to porgram ?')
     if (answer === myAge) {
-      alert('yes 7 years old most of the people says that and 7 years old will set evryone good future ')
+      alert('yes 7 years old most of the people says that and 7 years old will set evryone good future')
     } else if (answer < myAge) {
       alert('You guessed to small, please try again')
     } else if (answer > myAge) {
