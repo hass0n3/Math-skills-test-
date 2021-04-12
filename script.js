@@ -126,8 +126,8 @@ function function5 () {
 }
 function function6 () {
   riddle6 = document.getElementById('answer-6').value
-  if(riddle6 === 'Octagon' || riddle6 === 'octagon'){
-    document.getElementById('paragraph-6').innerHTML = 'Correct'
+if(riddle6==='Octagon'||riddle6==='octagon'){
+   document.getElementById('paragraph-6').innerHTML = 'Correct'
   } else {
     document.getElementById('paragraph-6').innerHTML = 'Incorrect'
   }
