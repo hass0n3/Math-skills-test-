@@ -195,9 +195,9 @@ const myAge = 7
 let answer = 0
 
 function donotclickme () {
-  while (myAge != answer) {
+  while (myAge !== answer) {
     answer = prompt('wooow thanks for take this qustion and the qution is when should the person start to porgram ?')
-    if (answer == myAge) {
+    if (answer === myAge) {
       alert('yes 7 years old most of the people says that and 7 years old will set evryone good future ')
     } else if (answer < myAge) {
       alert('You guessed to small, please try again')
