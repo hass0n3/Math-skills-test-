@@ -192,7 +192,7 @@ function disapearbutton8 () {
 
 // Last riddle, "wooow thanks for take this qustion and the qution is when should the person start to porgram ?"//
 const myAge = 7
-let answer = 0
+let answer = 7
 
 function donotclickme () {
   while (myAge !== answer) {
